@@ -12,17 +12,20 @@ Enables quick mockups of websites from static .jpg .png files. Useful e.g. to se
 
 3. Open the index.html file in your browser (I recommend to use the latest Chrome or Safari for performance reasons)
 
-4. Add the name of the layout you want as a hashtag. For example, for the layout from the folder `layout-1` it would become:
+4. Add desired options (see below) as a query, starting with `?` and seperated by `&`. Propertyname and value are seperated by `=`. For example to set `name` to `layout-1` and `horziontal` to `true`:
 
-  `PATH TO THE FOLDER/index.html#layout-1`
-
-5. Add desired options (see below) as a query, starting with `?` and seperated by `&`. Propertyname and value are seperated by `=`. For example to set `horziontal` to `true` and to set `back` to `b`:
-
-  `PATH TO THE FOLDER/index.html#layout-1?horizontal=true&back=b`
+  `PATH TO THE FOLDER/index.html?name=layout-1&horizontal=true`
 
 ## Options
 
-### `horizontal`
+### `name` (required)
+
+- Type: `string`
+- Default: none
+
+The name of layout folder from which the background and foreground images should be loaded.
+
+### `horizontal` (optional)
 
 - Type: `boolean`
 - Default: `false`
