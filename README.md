@@ -12,13 +12,13 @@ Enables quick mockups of websites from static .jpg .png files. Useful e.g. to se
 
 3. Open the index.html file in your browser (I recommend to use the latest Chrome or Safari for performance reasons)
 
-4. Add desired options (see below) as a query, starting with `?` and seperated by `&`. Propertyname and value are seperated by `=`. For example to set `name` to `layout-1` and `horziontal` to `true`:
+4. Add desired options (see below) as a query, starting with `?` and seperated by `&`. Propertyname and value are seperated by `=`. For example to set `layout` to `layout-1` and `horziontal` to `true`:
 
-  `PATH TO THE FOLDER/index.html?name=layout-1&horizontal=true`
+  `PATH TO THE FOLDER/index.html?layout=layout-1&horizontal=true`
 
 ## Options
 
-### `name` (required)
+### `layout` (required)
 
 - Type: `string`
 - Default: none
