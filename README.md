@@ -32,6 +32,13 @@ The name of layout folder from which the background and foreground images should
 
 If set to `true` you get a horizontally scrolling website. Background and Foreground will be set to match the viewports height, insteadt of width.
 
+### `nofront` (optional)
+
+- Type: `boolean`
+- Default: `false`
+
+If set to `true` no non-scrolling foreground image will be loaded.
+
 ### `back`
 
 - Type: `string`

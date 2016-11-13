@@ -89,8 +89,14 @@
 		};
 	}
 
+	if ( layoutName !== undefined ) {
+		document.title = layoutName;
+	}
+
 	new LayoutImage( "back" );
-	new LayoutImage( "front" );
+	if ( args[ "nofront" ] != "TRUE" && args[ "nofront" ] != "true" && args[ "nofront" ] != "1" ) {
+		new LayoutImage( "front" );
+	}
 
 	alertErrors();
 
