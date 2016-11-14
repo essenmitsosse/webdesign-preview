@@ -4,9 +4,9 @@ Enables quick mockups of websites from static .jpg .png files. Useful e.g. to se
 
 # Exampels
 
-- [Vertical scroll with fixed menu](https://essenmitsosse.github.io/webdesign-preview/?layout=layout-1)
-- [Vertical scroll without fixed menu](https://essenmitsosse.github.io/webdesign-preview/?layout=layout-1&nofront=true)
-- [Horizontal scroll without fixed menu](https://essenmitsosse.github.io/webdesign-preview/?horizontal=true&layout=layout-2)
+- [Vertical scroll with fixed menu](https://cdn.rawgit.com/essenmitsosse/webdesign-preview/master/docs/index.html?layout=layout-1)
+- [Vertical scroll without fixed menu](https://cdn.rawgit.com/essenmitsosse/webdesign-preview/master/docs/index.html?layout=layout-1&nofront=true)
+- [Horizontal scroll without fixed menu](https://cdn.rawgit.com/essenmitsosse/webdesign-preview/master/docs/index.html?horizontal=true&layout=layout-2)
 
 ## Usage
 
