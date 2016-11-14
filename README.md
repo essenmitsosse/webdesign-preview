@@ -2,6 +2,12 @@
 
 Enables quick mockups of websites from static .jpg .png files. Useful e.g. to see how a layout looks while scrolling, with fixed menu.
 
+# Exampels
+
+- [Vertical scroll with fixed menu](https://essenmitsosse.github.io/webdesign-preview/?layout=layout-1)
+- [Vertical scroll without fixed menu](https://essenmitsosse.github.io/webdesign-preview/?layout=layout-1&nofront=true)
+- [Horizontal scroll without fixed menu](https://essenmitsosse.github.io/webdesign-preview/?horizontal=true&layout=layout-2)
+
 ## Usage
 
 1. Create a folder in the `layouts` folder with your layouts name (there is are two test layouts called `layout-1` and `layout-2` in the folder already).
